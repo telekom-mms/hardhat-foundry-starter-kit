@@ -1,5 +1,7 @@
 # hardhat-foundry-starter-kit
 
+This is an up-to-date template repository while working with hardhat (typescript based) and foundry.
+
 ## Recommended vscode extensions
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
