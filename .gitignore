@@ -1,0 +1,40 @@
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+
+# nodejs
+node_modules
+
+# Hardhat files
+/cache
+/artifacts
+/build
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# hardhat-gas-reporter
+gas-report*.txt
+
+# don't push the environment vars!
+.env
+
+# foundry
+out
+cache_forge
+!foundry/broadcast
+foundry/broadcast/*/31337/
+foundry/broadcast/**/dry-run/

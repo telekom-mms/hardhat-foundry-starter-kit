@@ -1,0 +1,29 @@
+{ 
+  // general
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+  "files.insertFinalNewline": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.scrollback": 10000,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    // "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.tabSize": 2,
+
+  // prettier
+  "prettier.requireConfig": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[solidity]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // solidity
+  "solidity.telemetry": true,
+  "solidity-language-server.trace.server.verbosity": "message",
+}
