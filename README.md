@@ -25,6 +25,8 @@ Note: In order that ESLint and Prettier extension work as expected I also added 
 
 Before you start you need to [install foundry](https://book.getfoundry.sh/getting-started/installation).
 
+**Note: Foundry/forge-std was already added as submodule to THIS repository. You do not need to execute one of the below commands. This was just added to showcase the possibilities you have when you work on a fresh repository/project.**
+
 After installation you have two possibilities:
 
 1. [Use hardhat-foundry for setup](https://hardhat.org/hardhat-runner/docs/advanced/hardhat-and-foundry#setting-up-a-hybrid-project)
